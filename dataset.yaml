@@ -1,0 +1,13 @@
+# train and val data
+
+train: /content/yolov5/data/images/train/
+val: /content/yolov5/data/images/val/
+
+# Number of classes
+nc:4
+
+# class names
+names: ['inhibitory', 'danger', 'mandatory', 'other']
+
+# we should add this file to google drive
+# to edit our .yaml file we can use this link : https://codebeautify.org/yaml-validator#
